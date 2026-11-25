@@ -1,0 +1,34 @@
+{
+  "version": "0.1.0",
+  "description": "Get paid without exposing your main wallet. ERC-5564 private receive address, pay links, payment scanning and withdrawals.",
+  "proposedName": "Receive Privately by ephemeral",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siriusthemaster/eph-receive-privately-snap.git"
+  },
+  "source": {
+    "shasum": "kdq669Ox4dS1AvUa7hZT/k1P98ZnvmP7Eiru3h915UQ=",
+    "location": {
+      "npm": {
+        "filePath": "dist/bundle.js",
+        "iconPath": "images/icon.svg",
+        "packageName": "eph-receive-privately-snap",
+        "registry": "https://registry.npmjs.org/"
+      }
+    }
+  },
+  "initialPermissions": {
+    "endowment:rpc": {
+      "dapps": true,
+      "snaps": false
+    },
+    "endowment:page-home": {},
+    "endowment:lifecycle-hooks": {},
+    "endowment:ethereum-provider": {},
+    "snap_getEntropy": {},
+    "snap_dialog": {},
+    "snap_manageState": {}
+  },
+  "platformVersion": "12.1.0",
+  "manifestVersion": "0.1"
+}
